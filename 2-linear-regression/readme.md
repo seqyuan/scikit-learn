@@ -15,3 +15,14 @@ fitting-a-line-through-data.py
 为了找到相关系数集合 β ，我们最小化误差项，这转化成了残差平方和最小化问题。
 
 这个问题可以用解析方法解决，其解是 β=(XTX)−1XTy^
+
+## 学习资料2
+https://muxuezi.github.io/posts/2-linear-regression.html
+http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+
+## 学习代码
+2-linear-regression.py
+
+## 学习心得
+* 梯度下降法只能保证找到的是局部最小值，并非全局最小值
+
